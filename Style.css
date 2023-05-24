@@ -1,0 +1,360 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #f5f5f5;
+
+}
+
+.LoginBar{
+    background-color: #f5f5f5;
+}
+.SearchBar{
+    background-color: white;   
+    display: flex;
+    flex-direction: left;
+
+}
+.CategoriesNavBar{
+    background-color: aqua;
+}
+.AboutDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+}
+.LoginBarList{
+    width: 30%;
+    display: flex;
+    flex-direction: left;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:start;
+}
+.MenusArea{
+    width: 15%;
+    display: flex;
+    flex-direction: left;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: start;
+    margin:auto;
+}
+.empty{
+    width:55%;
+}
+
+.MultiShopDiv{
+    width: 15%;
+    height: 70%;;
+    display: flex;
+    flex-direction: left;
+    list-style-type: none;
+    flex-direction: row;
+    align-items:start;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 80px;
+}
+#SpanForMulti{
+    display: flex;
+    width: 50%;
+    color: #ffd334;
+    height: 100%;
+    padding-top:5px;
+    background-color: #3d464d;
+    font-size: 35px;
+    padding: auto;
+    justify-content: center;
+}
+#SpanForShop{
+    display: flex;
+    color: #3d464d;
+    height: 100%;
+    width: 50%;
+    padding-top: 5px;
+    background-color: #ffd334;
+    font-size: 35px;
+    padding:auto;
+    justify-content: center;
+}
+.searchBarDiv{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: left;
+    list-style-type: none;
+    flex-direction: row;
+    
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#Mainsectionspan{
+    display: flex;
+    flex-direction: left;
+    align-items:start;
+    color: #5558bf;
+    height: 100%;
+    width: 20%;
+    padding-top: 5px;
+    font-size: 35px;
+    padding:auto;
+    justify-content: left;
+    
+}
+.customerservice{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#customerServiceSpan{
+    color: #9da3b1;
+}
+#custoemrservicenumberspan{
+    color: #4e484e;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #icons{
+    color: #ffd334;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropbtn{
+    background-color: #ffd334;
+  }
+  #O1{
+    height: 45px;
+  }
+  #O2{
+    height: 45px;
+  }
+  .Gridimagges{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:10px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    gap: 10px;
+  
+
+  }
+  .GridImage1Container{
+    background-image:image-set("Men.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .insideContainer1{
+    color: #f5f5f5;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .GridImage2Container{
+    background-image:image-set("Women1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .insideContainer2{
+    color: #f5f5f5;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .GridImage3Container{
+    background-image:image-set("Women2.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .insideContainer1button{
+    color:#f5f5f5 ;
+    border: 1px solid #f5f5f5;
+    width: 100px;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: transparent;
+  }
+  .insideContainer2button{
+    color:#4e484e ;
+    border: 1px solid #f5f5f5;
+    width: 90px;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #ffd334;
+  }
+  .GridQuality{
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:10px;
+    box-sizing: border-box;
+    grid-template-rows: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .GridQuality1{
+    background-color: white;
+    font-size: 20px;
+    padding: 10;
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    padding-left: 20px;
+    flex-direction: row;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .leftMarginSpan{
+    margin-left: 10px;
+    color: #4e484e;
+  }
+  .GridCategories{
+    display: grid;
+    padding:20px;
+    box-sizing: border-box;
+    grid-template-rows: 70px 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .GridCategoriesItems{
+    background-color: white;
+    font-size: 20px;
+    padding: 10;
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    justify-content:left;
+    padding-left: 20px;
+    flex-direction: row;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+.GridCategoriesItemsspanstyle{
+  width: 100%;
+  height: 100%;
+}
+.GridCategoriesItemsImageStyle{
+  width: 100%;
+  height: 100%;
+  transition: transform .7s ease-in-out;
+}
+.GridCategoriesItemsFirstParagraph{
+  color: #000;
+  width:fit-content;
+  height: 50%;
+  font-size: 1rem;
+}
+.GridCategoriesItemsSecondParagraph{
+  color: #9da3b1;
+  width: fit-content;
+  height: 50%;
+  font-size: 0.6rem;
+}
+.ProductsDiv{
+margin-left: 10px;
+width:85%;
+}
+.ProductsDiv:hover{
+  background-color: #ffd334;
+}
+.ImagesDiv img:hover{
+  transition: .5s;
+  transform: rotate(4deg) scale(1.2);
+  overflow: hidden;
+  background-color: #ffd334;
+}
+.ImagesDiv{
+  width: 15%;
+}
